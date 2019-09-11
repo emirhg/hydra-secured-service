@@ -1,0 +1,16 @@
+{
+  "environment": "development",
+  "jwtPublicCert": "./config/server.pub",
+  "hydra": {
+    "serviceName": "oauth2-test-service",
+    "serviceIP": "",
+    "servicePort": 0,
+    "serviceType": "oauth2-test",
+    "serviceDescription": "tests oauth",
+    "redis": {
+      "url": "127.0.0.1",
+      "port": 6379,
+      "db": 15
+    }
+  }
+}
