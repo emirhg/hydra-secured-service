@@ -24,7 +24,7 @@ config.init('./config/config.json')
     console.log(status);
     return hydraExpress.init(config.getObject(), version, () => {
       hydraExpress.registerRoutes({
-        '/v1/oauth2-test': require('./routes/oauth2-test-v1-routes')
+        '/api/oauth2-test': require('./routes/oauth2-test-v1-routes')
       });
     });
   })
